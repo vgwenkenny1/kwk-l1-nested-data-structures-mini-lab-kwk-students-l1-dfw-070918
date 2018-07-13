@@ -1,14 +1,22 @@
-# example ingredients array
+
 ingredients = [
     ["rye", "sourdough", "baguette"],
     ["ham", "salami", "turkey"],
     ["swiss", "munster", "cheddar"],
     ["mayo", "mustard", "tabasco"]
 ]
+puts ingredients[3][0..2]
+puts ingredients[2][2]
+puts ingredients[0][1]
+
 
 def sandwich_request(ingredients, order) 
-  # your code here!
+  
+  
+  
 end
+
+
 
 # example city_info hash
 cities = {
@@ -33,6 +41,11 @@ cities = {
     :website => "http://www.cityofchicago.org/"
   }
 }
+
+puts cities[:new_york][:population]
+puts cities[:miami][:website]
+puts cities[:los_angeles][:mayor]
+puts cities[:chicago][0..2]
 
 def city_populations(cities)
   # your code here!
